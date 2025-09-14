@@ -3,7 +3,7 @@ import useGetWeather from "./components/useGetWeather";
 import Weather from "./components/Weather";
 
 function App() {
-  const [location, setLocation] = useState("london");
+  const [location, setLocation] = useState("Islamabad");
 
   const { weather, countryData, isLoading, error } = useGetWeather(location);
 
