@@ -1,12 +1,30 @@
-# React + Vite
+# ⛅ ClassyWeather
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ClassyWeather is a modern React app to check the weather of any location.  
+It fetches real-time data using the **Open-Meteo API** and displays a **7-day forecast** with icons, temperatures, and country flags.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Search weather by city or country name  
+- 📍 Automatic geocoding with latitude & longitude lookup  
+- 🌡️ 7-day forecast with **min & max temperatures**  
+- 🌤 Weather condition icons (sunny, cloudy, rain, snow, etc.)  
+- 🏳️ Displays **country flags** for locations  
+- ⏳ Loading indicator and error handling  
+- ⚡ Built with **React hooks** and a custom `useGetWeather` hook  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React (with hooks & custom hooks)  
+- **APIs**:  
+  - [Open-Meteo Weather API](https://open-meteo.com/)  
+  - [Open-Meteo Geocoding API](https://open-meteo.com/)  
+- **Styling**: CSS  
+- **Other**: [Twemoji](https://twemoji.twitter.com/) for country flags  
+
+   git clone https://github.com/yourusername/classyweather.git
+   cd classyweather
