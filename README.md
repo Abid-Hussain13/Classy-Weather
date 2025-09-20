@@ -3,6 +3,8 @@
 ClassyWeather is a modern React app to check the weather of any location.  
 It fetches real-time data using the **Open-Meteo API** and displays a **7-day forecast** with icons, temperatures, and country flags.  
 
+Live here 👉 [ClassyWeather](https://classy-weather-sandy.vercel.app/)
+
 ---
 
 ## 🚀 Features
@@ -25,6 +27,3 @@ It fetches real-time data using the **Open-Meteo API** and displays a **7-day fo
   - [Open-Meteo Geocoding API](https://open-meteo.com/)  
 - **Styling**: CSS  
 - **Other**: [Twemoji](https://twemoji.twitter.com/) for country flags  
-
-   git clone https://github.com/yourusername/classyweather.git
-   cd classyweather
